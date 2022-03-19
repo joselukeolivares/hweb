@@ -28,7 +28,7 @@ const theme=createTheme({
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter onContextMenu ={e=>e.preventDefault()}>
         <MuiThemeProvider theme={theme}>
             <MainRouter></MainRouter>
         </MuiThemeProvider>

@@ -1,0 +1,178 @@
+[debug] [2022-03-08T22:20:27.804Z] ----------------------------------------------------------------------
+[debug] [2022-03-08T22:20:27.807Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jose luis.DESKTOP-8C6ES7N\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-03-08T22:20:27.807Z] CLI Version:   10.2.1
+[debug] [2022-03-08T22:20:27.807Z] Platform:      win32
+[debug] [2022-03-08T22:20:27.807Z] Node Version:  v14.15.1
+[debug] [2022-03-08T22:20:27.808Z] Time:          Tue Mar 08 2022 15:20:27 GMT-0700 (hora estándar del Pacífico de México)
+[debug] [2022-03-08T22:20:27.809Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-08T22:20:27.812Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-03-08T22:20:27.913Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-08T22:20:27.913Z] > authorizing via signed-in user (jose.luis.olivares.camacho@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2022-03-08T22:20:27.946Z] [hub] writing locator at C:\Users\JOSELU~1.DES\AppData\Local\Temp\hub-hector-web-1e65a.json
+[debug] [2022-03-08T22:20:27.960Z] > refreshing access token with scopes: []
+[debug] [2022-03-08T22:20:27.961Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-03-08T22:20:28.224Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-03-08T22:20:28.225Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-03-08T22:20:28.346Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 08 Mar 2022 22:20:30 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-03-08T22:20:28.357Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/hector-web-1e65a/sites 
+[debug] [2022-03-08T22:20:28.875Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/hector-web-1e65a/sites 200
+[debug] [2022-03-08T22:20:28.875Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/hector-web-1e65a/sites {"sites":[{"name":"projects/759660156044/sites/hector-web-1e65a","defaultUrl":"https://hector-web-1e65a.web.app","appId":"1:759660156044:web:a1d036df484c3663bed7a9","type":"DEFAULT_SITE"}]}
+[debug] [2022-03-08T22:20:28.876Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hector-web-1e65a/webApps/1:759660156044:web:a1d036df484c3663bed7a9/config [none]
+[debug] [2022-03-08T22:20:29.370Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hector-web-1e65a/webApps/1:759660156044:web:a1d036df484c3663bed7a9/config 200
+[debug] [2022-03-08T22:20:29.371Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hector-web-1e65a/webApps/1:759660156044:web:a1d036df484c3663bed7a9/config {"projectId":"hector-web-1e65a","appId":"1:759660156044:web:a1d036df484c3663bed7a9","storageBucket":"hector-web-1e65a.appspot.com","locationId":"us-central","apiKey":"AIzaSyDFs3FQpiTJvTxngTHhdDUAC3QsamVD9qw","authDomain":"hector-web-1e65a.firebaseapp.com","messagingSenderId":"759660156044","measurementId":"G-SY37SYNGFX"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: None
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] "GET / HTTP/1.1" 200 1686 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] \"GET / HTTP/1.1\" 200 1686 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0\""}}
+[debug] [2022-03-08T23:00:34.156Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js [none]
+[debug] [2022-03-08T23:00:34.164Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-auth-compat.js [none]
+[debug] [2022-03-08T23:00:34.167Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-database-compat.js [none]
+[debug] [2022-03-08T23:00:34.169Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore-compat.js [none]
+[debug] [2022-03-08T23:00:34.172Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-functions-compat.js [none]
+[debug] [2022-03-08T23:00:34.175Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-messaging-compat.js [none]
+[debug] [2022-03-08T23:00:34.358Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore-compat.js 200
+[debug] [2022-03-08T23:00:34.359Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore-compat.js [stream]
+[debug] [2022-03-08T23:00:34.361Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-messaging-compat.js 200
+[debug] [2022-03-08T23:00:34.361Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-messaging-compat.js [stream]
+[debug] [2022-03-08T23:00:34.366Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js 200
+[debug] [2022-03-08T23:00:34.366Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js [stream]
+[debug] [2022-03-08T23:00:34.371Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-auth-compat.js 200
+[debug] [2022-03-08T23:00:34.371Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-auth-compat.js [stream]
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] "GET /__/firebase/9.6.7/firebase-app-compat.js HTTP/1.1" 200 17888 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] \"GET /__/firebase/9.6.7/firebase-app-compat.js HTTP/1.1\" 200 17888 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0\""}}
+[debug] [2022-03-08T23:00:34.388Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-storage-compat.js [none]
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] "GET /__/firebase/9.6.7/firebase-messaging-compat.js HTTP/1.1" 200 37953 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] \"GET /__/firebase/9.6.7/firebase-messaging-compat.js HTTP/1.1\" 200 37953 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0\""}}
+[debug] [2022-03-08T23:00:34.402Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-analytics-compat.js [none]
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] "GET /__/firebase/9.6.7/firebase-auth-compat.js HTTP/1.1" 200 35522 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] \"GET /__/firebase/9.6.7/firebase-auth-compat.js HTTP/1.1\" 200 35522 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0\""}}
+[debug] [2022-03-08T23:00:34.425Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-database-compat.js 200
+[debug] [2022-03-08T23:00:34.425Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-database-compat.js [stream]
+[debug] [2022-03-08T23:00:34.432Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-remote-config-compat.js [none]
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] "GET /__/firebase/9.6.7/firebase-firestore-compat.js HTTP/1.1" 200 90220 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] \"GET /__/firebase/9.6.7/firebase-firestore-compat.js HTTP/1.1\" 200 90220 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0\""}}
+[debug] [2022-03-08T23:00:34.445Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-performance-compat.js [none]
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] "GET /__/firebase/9.6.7/firebase-database-compat.js HTTP/1.1" 200 165337 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] \"GET /__/firebase/9.6.7/firebase-database-compat.js HTTP/1.1\" 200 165337 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0\""}}
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0\""}}
+[debug] [2022-03-08T23:00:34.529Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-analytics-compat.js 200
+[debug] [2022-03-08T23:00:34.529Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-analytics-compat.js [stream]
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] "GET /__/firebase/9.6.7/firebase-analytics-compat.js HTTP/1.1" 200 8940 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] \"GET /__/firebase/9.6.7/firebase-analytics-compat.js HTTP/1.1\" 200 8940 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0\""}}
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] "GET /static/css/main.abd64e84.css HTTP/1.1" 200 752 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] \"GET /static/css/main.abd64e84.css HTTP/1.1\" 200 752 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0\""}}
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] "GET /static/js/main.88dae0b4.js HTTP/1.1" 200 159092 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] \"GET /static/js/main.88dae0b4.js HTTP/1.1\" 200 159092 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0\""}}
+[debug] [2022-03-08T23:00:34.565Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-storage-compat.js 200
+[debug] [2022-03-08T23:00:34.566Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-storage-compat.js [stream]
+[debug] [2022-03-08T23:00:34.570Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-functions-compat.js 200
+[debug] [2022-03-08T23:00:34.571Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-functions-compat.js [stream]
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] "GET /__/firebase/9.6.7/firebase-functions-compat.js HTTP/1.1" 200 7947 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] \"GET /__/firebase/9.6.7/firebase-functions-compat.js HTTP/1.1\" 200 7947 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0\""}}
+[debug] [2022-03-08T23:00:34.587Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-remote-config-compat.js 200
+[debug] [2022-03-08T23:00:34.587Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-remote-config-compat.js [stream]
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] "GET /__/firebase/9.6.7/firebase-storage-compat.js HTTP/1.1" 200 38245 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] \"GET /__/firebase/9.6.7/firebase-storage-compat.js HTTP/1.1\" 200 38245 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0\""}}
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] "GET /__/firebase/9.6.7/firebase-remote-config-compat.js HTTP/1.1" 200 27493 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] \"GET /__/firebase/9.6.7/firebase-remote-config-compat.js HTTP/1.1\" 200 27493 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0\""}}
+[debug] [2022-03-08T23:00:34.706Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-performance-compat.js 200
+[debug] [2022-03-08T23:00:34.707Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.6.7/firebase-performance-compat.js [stream]
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] "GET /__/firebase/9.6.7/firebase-performance-compat.js HTTP/1.1" 200 30811 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] \"GET /__/firebase/9.6.7/firebase-performance-compat.js HTTP/1.1\" 200 30811 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0\""}}
+[info] i  hosting: 127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] "GET /favicon.ico HTTP/1.1" 200 3870 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [08/Mar/2022:23:00:34 +0000] \"GET /favicon.ico HTTP/1.1\" 200 3870 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0\""}}
+[debug] [2022-03-09T02:48:49.068Z] Received signal SIGHUP 1
+[debug] [2022-03-12T23:52:16.339Z] ----------------------------------------------------------------------
+[debug] [2022-03-12T23:52:16.341Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jose luis.DESKTOP-8C6ES7N\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-03-12T23:52:16.342Z] CLI Version:   10.2.1
+[debug] [2022-03-12T23:52:16.342Z] Platform:      win32
+[debug] [2022-03-12T23:52:16.342Z] Node Version:  v14.15.1
+[debug] [2022-03-12T23:52:16.343Z] Time:          Sat Mar 12 2022 16:52:16 GMT-0700 (hora estándar del Pacífico de México)
+[debug] [2022-03-12T23:52:16.343Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-12T23:52:16.347Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-03-12T23:52:16.444Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-12T23:52:16.444Z] > authorizing via signed-in user (jose.luis.olivares.camacho@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project hector-web-1e65a. This may result in unexpected behavior. 
+[debug] [2022-03-12T23:52:16.471Z] [hub] writing locator at C:\Users\JOSELU~1.DES\AppData\Local\Temp\hub-hector-web-1e65a.json
+[debug] [2022-03-12T23:52:16.492Z] > refreshing access token with scopes: []
+[debug] [2022-03-12T23:52:16.493Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-03-12T23:52:16.779Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-03-12T23:52:16.779Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-03-12T23:52:16.940Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sat, 12 Mar 2022 23:52:17 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-03-12T23:52:16.948Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/hector-web-1e65a/sites 
+[debug] [2022-03-12T23:52:17.420Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/hector-web-1e65a/sites 200
+[debug] [2022-03-12T23:52:17.420Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/hector-web-1e65a/sites {"sites":[{"name":"projects/759660156044/sites/hector-web-1e65a","defaultUrl":"https://hector-web-1e65a.web.app","appId":"1:759660156044:web:a1d036df484c3663bed7a9","type":"DEFAULT_SITE"}]}
+[debug] [2022-03-12T23:52:17.421Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hector-web-1e65a/webApps/1:759660156044:web:a1d036df484c3663bed7a9/config [none]
+[debug] [2022-03-12T23:52:17.872Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hector-web-1e65a/webApps/1:759660156044:web:a1d036df484c3663bed7a9/config 200
+[debug] [2022-03-12T23:52:17.872Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hector-web-1e65a/webApps/1:759660156044:web:a1d036df484c3663bed7a9/config {"projectId":"hector-web-1e65a","appId":"1:759660156044:web:a1d036df484c3663bed7a9","storageBucket":"hector-web-1e65a.appspot.com","locationId":"us-central","apiKey":"AIzaSyDFs3FQpiTJvTxngTHhdDUAC3QsamVD9qw","authDomain":"hector-web-1e65a.firebaseapp.com","messagingSenderId":"759660156044","measurementId":"G-SY37SYNGFX"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: None
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-03-14T22:52:06.280Z] ----------------------------------------------------------------------
+[debug] [2022-03-14T22:52:06.283Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jose luis.DESKTOP-8C6ES7N\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-03-14T22:52:06.283Z] CLI Version:   10.2.1
+[debug] [2022-03-14T22:52:06.283Z] Platform:      win32
+[debug] [2022-03-14T22:52:06.283Z] Node Version:  v14.15.1
+[debug] [2022-03-14T22:52:06.287Z] Time:          Mon Mar 14 2022 15:52:06 GMT-0700 (hora estándar del Pacífico de México)
+[debug] [2022-03-14T22:52:06.287Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-14T22:52:06.291Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-03-14T22:52:06.382Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-14T22:52:06.382Z] > authorizing via signed-in user (jose.luis.olivares.camacho@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project hector-web-1e65a. This may result in unexpected behavior. 
+[debug] [2022-03-14T22:52:06.421Z] [hub] writing locator at C:\Users\JOSELU~1.DES\AppData\Local\Temp\hub-hector-web-1e65a.json
+[debug] [2022-03-14T22:52:06.434Z] > refreshing access token with scopes: []
+[debug] [2022-03-14T22:52:06.435Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-03-14T22:52:06.657Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Mon, 14 Mar 2022 22:52:06 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-03-14T22:52:06.678Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/hector-web-1e65a/sites 
+[debug] [2022-03-14T22:52:06.761Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-03-14T22:52:06.761Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-03-14T22:52:07.145Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/hector-web-1e65a/sites 200
+[debug] [2022-03-14T22:52:07.145Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/hector-web-1e65a/sites {"sites":[{"name":"projects/759660156044/sites/hector-web-1e65a","defaultUrl":"https://hector-web-1e65a.web.app","appId":"1:759660156044:web:a1d036df484c3663bed7a9","type":"DEFAULT_SITE"}]}
+[debug] [2022-03-14T22:52:07.146Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hector-web-1e65a/webApps/1:759660156044:web:a1d036df484c3663bed7a9/config [none]
+[debug] [2022-03-14T22:52:07.547Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hector-web-1e65a/webApps/1:759660156044:web:a1d036df484c3663bed7a9/config 200
+[debug] [2022-03-14T22:52:07.547Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hector-web-1e65a/webApps/1:759660156044:web:a1d036df484c3663bed7a9/config {"projectId":"hector-web-1e65a","appId":"1:759660156044:web:a1d036df484c3663bed7a9","storageBucket":"hector-web-1e65a.appspot.com","locationId":"us-central","apiKey":"AIzaSyDFs3FQpiTJvTxngTHhdDUAC3QsamVD9qw","authDomain":"hector-web-1e65a.firebaseapp.com","messagingSenderId":"759660156044","measurementId":"G-SY37SYNGFX"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI requires a project ID to start. Configure your default project with 'firebase use' or pass the --project flag."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: None
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-03-15T01:20:12.068Z] Received signal SIGHUP 1

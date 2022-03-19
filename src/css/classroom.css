@@ -1,0 +1,12 @@
+.classroom{
+    display: flex;
+}
+
+.ListClassContainer{
+    width:25%;
+    padding: 5rem 1rem;
+}
+
+.player_classroom{
+    width: 75%;
+}
