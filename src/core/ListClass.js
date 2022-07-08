@@ -57,7 +57,7 @@ function updatePlayer(key){
                 
                 {clasesList.map((clase,i)=>{
                     return (
-                        <ListItem>
+                        <ListItem key={`classRow${i+1}`}>
                         <ListItemAvatar>
                           <Avatar>
                             <LockIcon />
@@ -68,10 +68,12 @@ function updatePlayer(key){
                           secondary={secondary ? 'Secondary text' : null}
                         />
                         <ListItemSecondaryAction>
-                          <IconButton edge="end" aria-label="delete">
-                            <PlayArrowIcon onClick={()=>{
-                              updatePlayer(clasesList[i].key)
-                            }}/>
+                          <IconButton 
+                              onClick={()=>{
+                                updatePlayer(clasesList[i].key)
+                              }}
+                              edge="end" aria-label="delete">
+                            <PlayArrowIcon />
                           </IconButton>
                         </ListItemSecondaryAction>
                       </ListItem>

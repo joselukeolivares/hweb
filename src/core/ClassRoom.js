@@ -19,7 +19,7 @@ function ClassRoom(){
                       {({
                           urlContent
                       })=>{
-                        return (<HomeVideo keyContent={urlContent}></HomeVideo>)
+                        return (<HomeVideo keyContent={urlContent==null?'class01/planet.mp4':urlContent}></HomeVideo>)
                       }}  
 
                     </SesionContext.Consumer>
